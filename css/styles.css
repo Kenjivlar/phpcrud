@@ -1,0 +1,193 @@
+.container{
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 90px;
+}
+
+.ptable {
+	padding-top: 15px;
+	 border: 4px solid lightgray; 
+	 border-radius: 14px;
+
+}
+
+input{
+	border-radius: 5px;
+}
+
+.nuser{
+	padding-top: 30px;
+	display: block;
+text-align: center;
+}
+
+.cbutton{
+	border-radius: 8px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid gray;
+}
+
+.cbutton:hover{
+	background-color: lightgray;
+  	color: blue;
+}
+
+@media (max-width: 767px){
+	.trh{
+		display: none;
+	}
+	tr{ 
+      display: block;
+      border-bottom: 2px solid grey;
+      border-top: 2px solid grey;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+	}
+	td{
+		  display: block;
+     text-align: right;
+     position: relative;
+     padding-left: 50%;
+	}
+	td button{
+		align-items: center;
+		display: block;
+		margin: auto;
+	}
+
+	td::before{
+		 content: attr(data-label);
+     position: absolute;
+     left: 0;
+     width: 50%;
+     padding-left: 15px;
+     font-weight: bold;
+     text-align: left;
+	
+	}
+}
+
+.cuser{
+	margin: auto;
+	width: 50%;
+	border: 2px solid lightgray;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 14px;
+}
+
+label,input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cuser button{
+	margin-top: 20px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 8px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid gray;
+}
+
+.cuser button:hover{
+	background-color: lightgray;
+  	color: blue;
+}
+
+.tedit{
+	margin: auto;
+	width: 50%;
+	border: 2px solid lightgray;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	border-radius: 14px;
+}
+
+.tediti{
+	margin: auto;
+	width: 100%;
+	border: none;
+
+}
+
+.bedit{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	border-radius: 8px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid gray;
+}
+
+
+
+.bedit:hover{
+	background-color: lightgray;
+  	color: blue;
+}
+
+.btne{
+	border-radius: 8px;
+	background-color: white;
+  	color: black;
+  	border: 1px solid gray;
+}
+
+.b{
+  	border-color: blue;
+}
+
+.r{
+  	border-color: red;
+}
+
+.cdelete{
+	margin: auto;
+	width: 50%;
+	border: 2px solid lightgray;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 14px;
+}
+
+.cdelete input{
+	margin: auto;
+	width: 50%;
+}
+
+.bdelete{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	border-radius: 8px;
+	background-color: white;
+  	color: black;
+  	border: 1px solid gray;
+}
+
+.bdelete:hover{
+	background-color: lightgray;
+  	color: blue;
+}
+
+.warning{
+	text-align: center;
+
+}
+
