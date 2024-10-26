@@ -13,4 +13,4 @@ registertime TIMESTAMP DEFAULT CURRENT_TIMESTAMP)ENGINE=InnoDB CHARSET=UTF8;
 
 
 An example of the funcionality of this project
-http://apiphptest.free.nf/phpCrudOn/index.php
+http://phpcrud1.42web.io/phpCrudO/index.php
